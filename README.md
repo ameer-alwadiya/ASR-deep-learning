@@ -2,6 +2,41 @@
 
 This repository contains a Jupyter Notebook for an Automated Speech Recognition (ASR) system built using deep learning techniques. The notebook includes data preprocessing, data augmentation, model training, and optimization steps to develop and fine-tune a convolutional neural network (CNN) model for ASR.
 
+1. **Downloading the Data:**
+   The `curl` command is used to download files from the internet. The `-O` flag saves the file with its original name.
+
+   ```bash
+   !curl -O https://raw.githubusercontent.com/andrsn/data/main/speechImageData.zip
+   ```
+
+2. **Unzipping the Data:**
+   The `unzip` command is used to extract files from a ZIP archive. The `-q` flag suppresses the output, making it quiet.
+
+   ```bash
+   !unzip -q speechImageData.zip
+   ```
+
+These commands together will download the ZIP file from the specified URL and then unzip it to extract the contents. 
+
+### Steps in Detail:
+
+1. **Open your Jupyter Notebook:**
+   Start your Jupyter Notebook environment.
+
+2. **Download the Data:**
+   Use the `curl` command to download the ZIP file. Execute the following in a code cell:
+
+   ```python
+   !curl -O https://raw.githubusercontent.com/andrsn/data/main/speechImageData.zip
+   ```
+
+3. **Unzip the Data:**
+   After the download is complete, unzip the file using:
+
+   ```python
+   !unzip -q speechImageData.zip
+   ```
+
 ## Contents
 
 1. **Preprocessing**
