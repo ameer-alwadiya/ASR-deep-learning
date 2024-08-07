@@ -97,10 +97,6 @@ The notebook demonstrates different approaches to improve the ASR model's accura
 
 This project provides a comprehensive approach to building and optimizing a deep learning-based ASR system. It highlights the importance of data preprocessing, augmentation, and hyperparameter tuning in achieving higher model accuracy.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - The implementation details and results were adapted from various deep learning and ASR research papers and tutorials.
